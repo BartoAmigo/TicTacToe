@@ -1,0 +1,64 @@
+
+section{
+    text-align:center;
+}
+
+#gameContainer{
+    margin:auto;
+    width:150px;
+    height:fit-content;
+}
+
+#firstRow{
+    display:flex;
+    border-bottom:solid black 2px;
+    width:150px;
+
+}
+
+#secondRow{
+    display:flex;
+    border-bottom:solid black 2px;
+    width:150px;
+}
+#thirdRow{
+    display:flex;
+    width:150px;
+}
+#gameTitle{
+    text-align:center;
+}
+.cell{
+    width:50px;
+    height:50px;
+    border:solid black 2px;
+    font-size:50px;
+}
+#restartButton{
+    margin-top:20px;
+}
+#scoreBoard{
+    margin-top:20px;
+    border:solid black 2px;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#scoreBoard h1{
+    font-size:30px;
+}
+
+#scoreBoard span{
+    font-size:30px;
+}
+
+#scoreBoard span:nth-child(2){
+    color:red;
+}
+
+#scoreBoard div{
+    display:inline-block;
+    margin-right:20px;
+    margin-left:20px;
+}
